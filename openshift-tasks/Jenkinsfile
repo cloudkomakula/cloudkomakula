@@ -18,7 +18,6 @@ podTemplate(
     // Define Maven Command to point to the correct
     // settings for our Nexus installation
     def mvnCmd = "mvn -s ../nexus_settings.xml"
-
     // Other vars
     def sonar_url = "http://sonarqube-gpte-hw-cicd.apps.na311.openshift.opentlc.com"
     def sonar_svc = "http://sonarqube.gpte-hw-cicd.svc.cluster.local:9000"
